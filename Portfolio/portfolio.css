@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navigation bar css */
+.navbar {
+    /* border: 1px solid red; */
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+}
+
+.navbar-brand:hover {
+    font-size: 25px;
+    transition: all ease 0.5s;
+    color: cadetblue !important;
+    text-decoration: underline;
+}
+
+.nav-link {
+    margin: 5px;
+}
+
+.nav-link:hover {
+    background-color: cadetblue;
+    /* color: whitesmoke !important; */
+    border-radius: 2rem;
+    transition: all ease 0.8s;
+    margin-top: -1px;
+}
+
+
+/* home section css */
+.main{
+    height: 90vh;
+    width: 100%;
+    background-image: url('images/frontend.jpg');
+    background-size: 150% 100%;
+    color: white;
+    margin-top: 1rem;
+}
+#homepic{
+    height:300px; 
+    width:250px;
+    border-radius: 20rem;
+    border: 5px solid white;
+    margin-top: 2rem;
+}
+.home_info{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-size: 80px; */
+}
+.home_info:hover{
+    font-size: 70px;
+}
+
+
+/* education css */
+#edu{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin-top: 10rem;
+    text-decoration: underline;
+}
+
+
+/* skills section css */
+#skills h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin-top: 10rem;
+    text-decoration: underline;
+}
+
+.skills-cols p {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 800;
+    /* font-weight: 500; */
+}
+
+.skills-cols:hover {
+    transform: scale(1.05);
+    transition: all ease 0.5s;
+}
+
+
+/* about section css */
+#abtme {
+    margin-top: 10rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.card {
+    border-color: white;
+    /* border: 1px solid red; */
+}
+
+.imgdiv>img {
+    height: 80vh;
+    width: 20vw;
+    /* margin-left: 5rem; */
+}
+.card-text {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+
+/* contact css */
+#contact {
+    margin-top: 10rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.form-control {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.btn {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+
+
+
+
+@media screen and (min-width : 0px) and (max-width:768px){
+    .imgdiv > #abtimg{
+        width: 20rem !important;
+        height: 90vh;
+    }
+}
